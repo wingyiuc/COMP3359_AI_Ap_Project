@@ -17,18 +17,20 @@ This section provides the accuracy confusion matrix on the LSTM out-of-sample ac
 ### CNN General Performance on All Cryptos
 This section provides the accuracy confusion matrix on the CNN out-of-sample accuracy of *all* cryptos in the tickers list.
 
-### LSTM_1_Day_Regression_Presentation
+## LSTM_1_Day_Regression_Presentation
 This folder correspinding to Section 5: LSTM Regression 1-day Return. 
-- ARMA(3,5) Model: The predictions produced by the basemodel ARMA(3,5)
+
+### ARMA(3,5) Model: The predictions produced by the basemodel ARMA(3,5)
   - ARMA(3,5) Return Prediction Only Compatible with LSTM.ipynb: Implement ARMA(3,5) 
-- LSTM 1day Return Dropout 0.02 LeakyReLu: Implementation of LSTM models using the dropout rate = 0.02
+
+### LSTM 1day Return Dropout 0.02 LeakyReLu: Implementation of LSTM models using the dropout rate = 0.02
   - LSTM1.ipynb: Implement LSTM1
   - LSTM2.ipynb: Implement LSTM2
   - LSTM3.ipynb: Implement LSTM3
   - LSTM4.ipynb: Implement LSTM4
     - The defintiions of LSTM1 to LSTM4 can be found in the final report.
   - Result_ARMA_LSTM_Evaluation.ipynb: Comparing the results produced by LSTM models with the ARMA(3,5) model
-- LSTM 1day Return Dropout 0.2 LeakyReLu: Implementation of LSTM models using the dropout rate = 0.2
+### LSTM 1day Return Dropout 0.2 LeakyReLu: Implementation of LSTM models using the dropout rate = 0.2
   - LSTM1.ipynb: Implement LSTM1
   - LSTM2.ipynb: Implement LSTM2
   - LSTM3.ipynb: Implement LSTM3
@@ -36,11 +38,11 @@ This folder correspinding to Section 5: LSTM Regression 1-day Return.
     - The defintiions of LSTM1 to LSTM4 can be found in the final report.
   - Result_ARMA_LSTM_Evaluation.ipynb: Comparing the results produced by LSTM models with the ARMA(3,5) model
 
-### Time_Series_Model_Presentation
+## Time_Series_Model_Presentation
 This folder corresponding to Section 3.2.: Time Series Characteristics of BTC
 - Time Series Characteristics of BTC.ipynb: Time Seris Anlaysis of BTC close price
 
-### CNN_transfer_learning
+## CNN_transfer_learning
 This folder corresponding to Section 7.3: Discussion. It only perform the transfer learning using FX and Commodity data
 - CNN_Prepare_Data_CNN_transfer_learning_using_FX_Commo.ipynb: This notebook prepares the H5files of FX and Commodity for CNN_transfer_learning_using_FX_Commo.ipynb
 - CNN_Prepare_Data.ipynb: This notebook prepares the H5files of BTC for CNN_transfer_learning_using_FX_Commo.ipynb
