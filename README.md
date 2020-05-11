@@ -17,6 +17,12 @@ This section provides the accuracy confusion matrix on the LSTM out-of-sample ac
 ### CNN General Performance on All Cryptos
 This section provides the accuracy confusion matrix on the CNN out-of-sample accuracy of *all* cryptos in the tickers list.
 
+## Toy Model (Final).ipynb
+This file contains the full steps modeling with step-by-step data exploration, feature engineering, model construction and evaluation, for LSTM, benchmark model and CNN. 
+
+## 'Cryptocurrency data' file
+All the raw data that contains historical prices and volumes are under the *Raw data* subdirectory under *Cryptocurrency data*. To produce technical indicators, run the `Data_processing_(Final).ipynb`, which would generate csv files with technical indicators and truth labels. All files are saved in *Processed data* subdirectory under *Cryptocurrency data*. 
+
 ## LSTM_1_Day_Regression_Presentation
 This folder correspinding to Section 5: LSTM Regression 1-day Return. 
 
@@ -50,5 +56,4 @@ This folder corresponding to Section 7.3: Discussion. It only perform the transf
 - Data_Handling_CNN_transfer_learning_using_FX_Commo.ipynb: This notebook preprocesses the raw data of FX and Commodity 
 - Data_Handling_CNN_transfer_learning_using_FX_Commo.ipynb: This notebook preprocesses the raw data of BTC
 
-## 'Cryptocurrency data' file
-All the raw data that contains historical prices and volumes are under the *Raw data* subdirectory under *Cryptocurrency data*. To produce technical indicators, run the `Data_processing_(Final).ipynb`, which would generate csv files with technical indicators and truth labels. All files are saved in *Processed data* subdirectory under *Cryptocurrency data*. 
+
